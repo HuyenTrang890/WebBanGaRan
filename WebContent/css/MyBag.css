@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('gà.jpg');
+	height: max-content;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.bagBox {
+	width: 75%;
+	height: 550px;
+	background: #fff;
+	color: rgb(12, 116, 12);
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+	border-radius: 25px;
+	border: 2px solid #184d47;
+	display: inline-block;
+	margin-left: 50%;
+	margin-top: 30%;
+}
+
+.container {
+	height: 400px;
+	padding-left: 30px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 40px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.bagBox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.bagBox input {
+	margin-bottom: 20px;
+}
+
+.bagBox .btn {
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(16, 83, 7);
+	color: #fff;
+	/* font-size: 14px; */
+	border-radius: 10px;
+}
+
+.bagBox .btn:hover {
+	width: 100%;
+	cursor: pointer;
+	background: rgb(16, 83, 7);
+	color: rgb(184, 179, 179);
+}
+
+.bagBox a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.bagBox a:hover {
+	color: #0dbb1b;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.btn {
+	background-color: lawngreen;
+}

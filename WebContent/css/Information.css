@@ -1,0 +1,96 @@
+.information {
+	width: 500px;
+	height: 550px;
+	background: #fff;
+	color: #0c740c;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+	border-radius: 25px;
+	display: inline-block;
+	margin-left: 50%;
+	margin-top: 30%;
+	border: 2px solid #184d47;
+}
+
+.form {
+	height: 400px;
+	padding-left: 30px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 40px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.information .text {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.information input {
+	margin-bottom: 20px;
+}
+
+.information input[type="text"], input[type="password"] {
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid rgb(16, 83, 7);
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(7, 1, 1);
+	font-size: 16px;
+}
+
+.information input[type="submit"] {
+	width: 90%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(16, 83, 7);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.information input[type="submit"]:hover {
+	width: 90%;
+	cursor: pointer;
+	background: rgb(16, 83, 7);
+	color: rgb(184, 179, 179);
+}
+
+.information .login a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.information a:hover {
+	color: #0dbb1b;
+}
+
+#dob {
+	width: 90%;
+	font-size: 16px;
+	padding-bottom: 20px
+}
+
+#address {
+	padding-bottom: 20px
+}
+
+.address {
+	border: 1px solid rgb(16, 83, 7);
+	border-radius: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 15px
+}

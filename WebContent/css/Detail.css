@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 50%;
+    padding: 70px;
+  }
+  .detail::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #img{
+    text-align: center;
+  }
+  .title{
+      text-align: center;
+  }
+ button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#5b8c5a 
+    
+}
+
+.btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow:  0 0 10px 5px #5b8c5a inset;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/customer/Checkout.jsp=UTF-8
+encoding//WebContent/customer/Home.jsp=UTF-8
+encoding//WebContent/customer/InforUser.jsp=UTF-8
+encoding//WebContent/customer/Login.jsp=UTF-8
+encoding//WebContent/customer/ProductDetail.jsp=UTF-8
+encoding//WebContent/template/TaiKhoan.jsp=UTF-8
+encoding//src/adminServlet/LoginAdminServlet.java=UTF-8
+encoding//src/adminServlet/LogupAdminServlet.java=UTF-8
+encoding//src/beans/ListProductBean.java=UTF-8
+encoding//src/database/DatabaseConnection.java=UTF-8
+encoding//src/database/ProductDAO.java=UTF-8
+encoding//src/servlet/LoginServlet.java=UTF-8
+encoding//src/servlet/LogupServlet.java=UTF-8
+encoding//src/servlet/UploadFileServle.java=UTF-8
